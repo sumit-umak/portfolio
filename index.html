@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Sumit Umak Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	 
+
+
+	<style>
+		/*======================================
+//--//-->   ABOUT
+======================================*/
+
+		.about-mf .box-shadow-full {
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+		}
+
+
+		.about-mf .about-img {
+			margin-bottom: 2rem;
+		}
+
+		.about-mf .about-img img {
+			margin-left: 10px;
+		}
+
+
+		.skill-mf .progress {
+			/* background-color: #cde1f8; */
+			margin: .5rem 0 1.2rem 0;
+			border-radius: 0;
+			height: .7rem;
+		}
+
+		.skill-mf .progress .progress-bar {
+			height: .7rem;
+			background-color: #ffbd39;
+		}
+
+		.about-img img {
+			border-radius: 50% !important;
+			border: 5px solid #ffbd39;
+		}
+
+		.skill-mf {
+			padding-top: 20px;
+		}
+		
+		button:focus{
+			outline: none !important;
+		}
+
+
+		/* Animation styles */
+		#typing-animation {
+			position: relative;
+			font-size: 30px;
+			font-weight: bold;
+			color: rgb(255, 255, 255);
+			overflow: hidden;
+			white-space: nowrap;
+			animation: typing 3s steps(20, end) infinite;
+		}
+
+		#typing-animation:before {
+			content: "";
+			/* position: absolute; */
+			top: 0;
+			left: 0;
+			width: 0;
+			height: 100%;
+			background-color: #ccc;
+			animation: typing-cursor 0.5s ease-in-out infinite;
+		}
+
+		@keyframes typing {
+			from {
+				width: 0;
+			}
+
+			to {
+				width: 100%;
+			}
+		}
+
+		@keyframes typing-cursor {
+			from {
+				width: 5px;
+			}
+
+			to {
+				width: 0;
+			}
+		}
+
+
+		/* project image zoom effect */
+
+		.zoom-effect {
+			overflow: hidden;
+			transition: transform 0.3s ease-out;
+		}
+
+		.zoom-effect:hover {
+			transform: scale(1.1);
+		}
+
+
+
+		/* Project section */
+
+		[data-aos^=fade][data-aos^=fade].aos-animate {
+			opacity: 1;
+			transform: translateZ(0);
+		}
+
+		.project_box {
+			height: 400px;
+			overflow: hidden;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+
+		.project_box.our_box_01,.project_box.our_box_02 {
+			background-clip: padding-box;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			position: relative;
+			transition: all 3s ease-in-out 0s;
+			-webkit-transition: all 3s ease-in-out 0s;
+			-moz-transition: all 3s ease-in-out 0s;
+			-o-transition: all 3s ease-in-out 0s;
+			-ms-transition: all 3s ease-in-out 0s;
+			background-image: url(./images/projects/udan-immigration.png);
+		}
+
+		.project_box.our_box_02 {
+			background-clip: padding-box;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			position: relative;
+			transition: all 3s ease-in-out 0s;
+			-webkit-transition: all 3s ease-in-out 0s;
+			-moz-transition: all 3s ease-in-out 0s;
+			-o-transition: all 3s ease-in-out 0s;
+			-ms-transition: all 3s ease-in-out 0s;
+			background-image: url(./images/projects/ownzap.png);
+		}
+
+		.project_box.our_box_03 {
+			background-clip: padding-box;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			position: relative;
+			transition: all 5s ease-in-out 0s;
+			-webkit-transition: all 7s ease-in-out 0s;
+			-moz-transition: all 7s ease-in-out 0s;
+			-o-transition: all 7s ease-in-out 0s;
+			-ms-transition: all 7s ease-in-out 0s;
+			background-image: url(./images/projects/asa-polyplast.png);
+		}
+		.project_box.our_box_04 {
+			background-clip: padding-box;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			position: relative;
+			transition: all 5s ease-in-out 0s;
+			-webkit-transition: all 7s ease-in-out 0s;
+			-moz-transition: all 7s ease-in-out 0s;
+			-o-transition: all 7s ease-in-out 0s;
+			-ms-transition: all 7s ease-in-out 0s;
+			background-image: url(./images/projects/freshoneed.png);
+		}
+		.project_box.our_box_05 {
+			background-clip: padding-box;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			position: relative;
+			transition: all 5s ease-in-out 0s;
+			-webkit-transition: all 7s ease-in-out 0s;
+			-moz-transition: all 7s ease-in-out 0s;
+			-o-transition: all 7s ease-in-out 0s;
+			-ms-transition: all 7s ease-in-out 0s;
+			background-image: url(./images/projects/mohanresidency-in.png);
+		}
+		.project_box.our_box_06 {
+			background-clip: padding-box;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			position: relative;
+			transition: all 5s ease-in-out 0s;
+			-webkit-transition: all 7s ease-in-out 0s;
+			-moz-transition: all 7s ease-in-out 0s;
+			-o-transition: all 7s ease-in-out 0s;
+			-ms-transition: all 7s ease-in-out 0s;
+			background-image: url(./images/projects/swagg-india.png);
+		}
+		.project_box.our_box_07 {
+			background-clip: padding-box;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			position: relative;
+			transition: all 5s ease-in-out 0s;
+			-webkit-transition: all 7s ease-in-out 0s;
+			-moz-transition: all 7s ease-in-out 0s;
+			-o-transition: all 7s ease-in-out 0s;
+			-ms-transition: all 7s ease-in-out 0s;
+			background-image: url(./images/projects/grait-grab.png);
+		}
+		.project_box.our_box_08 {
+			background-clip: padding-box;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			position: relative;
+			transition: all 5s ease-in-out 0s;
+			-webkit-transition: all 7s ease-in-out 0s;
+			-moz-transition: all 7s ease-in-out 0s;
+			-o-transition: all 7s ease-in-out 0s;
+			-ms-transition: all 7s ease-in-out 0s;
+			background-image: url(./images/projects/thechiggywiggy.png);
+		}
+		.project_box.our_box_09 {
+			background-clip: padding-box;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			position: relative;
+			transition: all 5s ease-in-out 0s;
+			-webkit-transition: all 7s ease-in-out 0s;
+			-moz-transition: all 7s ease-in-out 0s;
+			-o-transition: all 7s ease-in-out 0s;
+			-ms-transition: all 7s ease-in-out 0s;
+			background-image: url(./images/projects/Re-Fery-Studio.png);
+		}
+
+
+		.view_all_btn {
+			margin: 50px auto 0;
+			text-align: center;
+		}
+
+		.view_all_btn a {
+			background: #d5ff0f;
+			color: #191919;
+			text-decoration: none;
+			font-size: 16px;
+			font-weight: 400;
+			display: inline-block;
+			padding: 14px 50px;
+			border-radius: 30px;
+			transition: all 0.5s ease;
+		}
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.8);
+			/* Adjust the opacity (last value) as needed */
+		}
+
+		.project_box.our_box_01:hover,
+		.project_box.our_box_02:hover,
+		.project_box.our_box_03:hover,
+		.project_box.our_box_04:hover,
+		.project_box.our_box_05:hover,
+		.project_box.our_box_06:hover,
+		.project_box.our_box_07:hover,
+		.project_box.our_box_08:hover,
+		.project_box.our_box_09:hover,
+		.project_box.our_box_10:hover
+		 {
+			background-position: center bottom;
+		}
+
+		/* Style the tabs container */
+		.tabs {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 20px;
+		}
+
+		/* Style the individual tab */
+		.tablink {
+			padding: 10px 20px;
+			border: 1px solid #ffbd39;
+			background-color: transparent;
+			color: #ffbd39;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+
+		button.tablink.active {
+			background: #ffbd39;
+			border-color: #ffbd39;
+			color: #000;
+		}
+
+		button.tablink {
+			margin: 0 10px;
+		}
+
+		.tablink:hover {
+			background-color: #e9e9e9;
+			border-color: #e9e9e9;
+			color: #000;
+		}
+
+		/* Style the active tab */
+		.active {
+			background-color: transparent;
+			color: #fff;
+			/* border-bottom: 1px solid #fff; Hide the bottom border */
+		}
+
+		/* Style the tab content */
+		.tab-content {
+			padding: 20px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+	</style>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Sumit Umak</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="home-section" class="hero">
+		<div class="home-slider  owl-carousel">
+			<div class="slider-item ">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+						data-scrollax-parent="true">
+
+						<div class="one-third js-fullheight order-md-last img"
+							style="background-image:url(images/pro-1.png);">
+							<div class="overlay"></div>
+						</div>
+						<div class="one-forth d-flex  align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Namaste!</span>
+								<h1 class="mb-4 mt-3">I'm <span>Sumit Umak</span></h1>
+
+								<!-- Element to contain animated typing -->
+								<span id="typing-animation"></span>
+
+								<script>
+
+									// Initialize the typing animation
+									const typingAnimationElement = document.getElementById('typing-animation');
+
+									// Create an array of typing text
+									const typingTexts = [
+										'Engineer  ',
+										'Web Developer  ',
+										'Web Designer   ',
+									];
+
+									// Create a function to display the typing animation for a given text
+									function playTypingAnimation(text) {
+										// Loop through each character and add it to the element
+										for (let i = 0; i < text.length; i++) {
+											setTimeout(() => {
+												typingAnimationElement.textContent += text[i];
+											}, i * 200); // Increase the delay to slow down the typing animation
+										}
+
+										// Once the animation is complete, reset the text and start over
+										setTimeout(() => {
+											typingAnimationElement.textContent = '';
+											playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+										}, text.length * 200);
+									}
+
+									// Start the typing animation loop
+									playTypingAnimation(typingTexts[0]);
+
+								</script>
+
+								<br>
+								<br>
+								<!-- <h2>Frontend Developer</h2> -->
+								<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+								<!-- <br> -->
+								<p><a href="https://wa.me/+919601328464" target="_blank"
+										class="btn btn-primary py-3 px-4">Let's Connect</a>
+									<!-- <a href="https://github.com/rishabhnmishra" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+					<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+										<div class="about-img">
+											<img src="images/profile-img.png" class="img-fluid rounded b-shadow-a"
+												alt="">
+										</div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+										<div class="about-info">
+											<p><span class="title-s">Name: </span> <span>Sumit Umak</span></p>
+											<p><span class="title-s">Job Role: </span> <span>Web Developer</span></p>
+											<p><span class="title-s">Experience: </span> <span>2+ Years</span></p>
+											<p><span class="title-s">Address: </span> <span>Surat, India</span></p>
+										</div>
+									</div>
+								</div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>HTML</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%;"
+											aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span>CSS</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%"
+											aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span>Bootstrap</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%"
+											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span>WordPress</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%"
+											aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span>Shopify</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%"
+											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+
+								<p>Welcome! With 2+ years' experience, I specialize in WordPress, Shopify, and Custom
+									website design. Whether you need an e-commerce boost or captivating informative
+									sites, I blend creativity with technical proficiency. Let's collaborate to elevate
+									your online presence. Explore my portfolio!</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Web Developer &amp; Web
+											Designer</span>
+									</li>
+									<!-- <li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital
+											Marketing</span></li> -->
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Hindi, Gujarati,
+											Marathi</span></li>
+									<li class="d-flex"><span>Technology:</span> <span> HTML, CSS, Bootstrap, JavaScript,
+											WordPress &amp;
+											Shopify</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Graphics Design &amp; Social
+											Media Post Design</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Football, Traveling, Music, Cooking,
+											Teaching</span></li>
+
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pb" id="resume-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Resume</h1>
+					<h2 class="mb-4">Resume</h2>
+					<p>Seasoned experienced website developer skilled in WordPress, Shopify, and custom design.
+						Proven track record in e-commerce and informative sites.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<h1 class="big-4">Experience</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2022-Present</span>
+						<h2>Web Developer</h2>
+						<!-- <span class="position">Merkle</span> -->
+						<p class="mt-4">Specializing in WordPress and Shopify development, offering expert services in
+							website design, theme setup, and e-commerce store design.
+						<ul>
+							<li>Crafting visually stunning and user-friendly websites tailored to your brand's identity
+								and target audience, ensuring a seamless and engaging online experience.</li>
+							<li> Implementing and customizing themes with precision, incorporating your unique brand
+								elements and functionalities to enhance site aesthetics and functionality.</li>
+							<li> Developing captivating e-commerce platforms that drive sales and enhance user
+								experience, from product showcases to checkout optimization, maximizing your online
+								business potential.</li>
+						</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2021-2022</span>
+						<h2>Jr. Web Developer</h2>
+						<!-- <span class="position">iQuanti</span> -->
+						<p class="mt-4">Self-taught in HTML, CSS, JavaScript, Bootstrap, WordPress, and Shopify. Applied
+							skills in diverse projects as a junior web developer.
+						<ul>
+							<li>Independently mastered HTML, CSS, JavaScript, Bootstrap, WordPress, and Shopify,
+								refining skills through self-learning.</li>
+							<li>Executed diverse projects across multiple technologies, effectively applying self-taught
+								knowledge to deliver results.</li>
+							<li>Developed proficiency as a junior web developer, leveraging self-learned expertise to
+								contribute effectively to projects spanning various platforms and technologies.</li>
+						</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+			<br>
+			<br>
+
+			<div class="row">
+				<h1 class="big-4">Education</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+
+			<div class="row">
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2019-2022</span>
+						<h2>Bachelor Of Engineering</h2>
+						<span class="position">Gujarat Technological University</span>
+						<p class="mt-4">Grade: First class distinction.</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2016-2019</span>
+						<h2>Diploma Engineering</h2>
+						<span class="position">Gujarat Technological University</span>
+						<p class="mt-4">Grade: First class distinction.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="row justify-content-center mt-5">
+				<div class="col-md-6 text-center ftco-animate">
+					<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+				</div>
+			</div> -->
+		</div>
+	</section>
+
+	<section class="ftco-section" id="project-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 class="mb-4">Projects</h2>
+					<p>Below are the sample of web development projects on WordPress, Shopify and Custom Web Design.</p>
+				</div>
+			</div>
+			
+
+			<div class="row justify-content-center">
+				<!-- Navigation tabs -->
+				<div class="tabs">
+					<button class="tablink active" onclick="openTab(event, 'tab1')">All</button>
+					<button class="tablink" onclick="openTab(event, 'tab2')">WordPress</button>
+					<button class="tablink" onclick="openTab(event, 'tab3')">Shopify</button>
+				</div>
+
+				<!-- Tab content -->
+				<div id="tab1" class="tab-content active">
+					<div class="row d-flex">
+						<div class="col-md-4">
+							<div class="project_box our_box_01"> </div>
+						</div>
+						<div class="col-md-4">
+							<div class="project_box our_box_02 sec_project"> </div>
+						</div>
+						<div class="col-md-4">
+							<div class="project_box our_box_03"> </div>
+						</div>
+						<div class="col-md-4 mt-5">
+							<div class="project_box our_box_04"> </div>
+						</div>
+						<div class="col-md-4 mt-5">
+							<div class="project_box our_box_05"> </div>
+						</div>
+						<div class="col-md-4 mt-5">
+							<div class="project_box our_box_06"> </div>
+						</div>
+						<div class="col-md-4 mt-5">
+							<div class="project_box our_box_07"> </div>
+						</div>
+						<div class="col-md-4 mt-5">
+							<div class="project_box our_box_08"> </div>
+						</div>
+						<div class="col-md-4 mt-5">
+							<div class="project_box our_box_09"> </div>
+						</div>
+						<!-- <div class="view_all_btn"><a href="">View All</a></div> -->
+					</div>
+				</div>
+
+				<div id="tab2" class="tab-content">
+					<div class="row d-flex">
+						 
+						<div class="col-md-4">
+                            <div class="project_box our_box_01"> </div>
+                        </div>
+						<div class="col-md-4">
+                            <div class="project_box our_box_03"> </div>
+                        </div>
+						<div class="col-md-4">
+                            <div class="project_box our_box_05"> </div>
+                        </div>
+						<div class="col-md-4">
+                            <div class="project_box our_box_07"> </div>
+                        </div>
+						<div class="col-md-4">
+                            <div class="project_box our_box_09"> </div>
+                        </div>
+                       
+					</div>
+				</div>
+
+				<div id="tab3" class="tab-content">
+					<div class="row d-flex">
+						<div class="col-md-4">
+							<div class="project_box our_box_06"> </div>
+						</div>
+						<div class="col-md-4">
+							<div class="project_box our_box_08"> </div>
+						</div>
+						<div class="col-md-4">
+                            <div class="project_box our_box_04"> </div>
+                        </div>
+						<!-- <div class="view_all_btn"><a href="">View All</a></div> -->
+					</div>
+				</div>
+
+				
+
+				<script>
+					// Function to switch between tabs
+					function openTab(evt, tabName) {
+						var i, tabcontent, tablinks;
+						tabcontent = document.getElementsByClassName("tab-content");
+						for (i = 0; i < tabcontent.length; i++) {
+							tabcontent[i].style.display = "none";
+						}
+						tablinks = document.getElementsByClassName("tablink");
+						for (i = 0; i < tablinks.length; i++) {
+							tablinks[i].classList.remove("active");
+						}
+						document.getElementById(tabName).style.display = "block";
+						evt.currentTarget.classList.add("active");
+					}
+				
+					// Open the default tab on page load
+					document.getElementById("tab1").style.display = "block";
+					document.querySelector(".tablink.active").classList.add("active");
+				
+					// Hide all tab contents except for the active tab on page reload
+					window.onload = function () {
+						var activeTab = document.querySelector(".tablink.active");
+						var activeTabName = activeTab.getAttribute("onclick").match(/'(.*?)'/)[1];
+						var activeContent = document.getElementById(activeTabName);
+						var allTabs = document.querySelectorAll('.tab-content');
+						for (var i = 0; i < allTabs.length; i++) {
+							if (allTabs[i].id !== activeTabName) {
+								allTabs[i].style.display = "none";
+							}
+						}
+					};
+				</script>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+		<div class="container">
+			<div class="row d-md-flex align-items-center">
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18">
+						<div class="text">
+							<!-- <strong class="number" data-number="20">0</strong> -->
+							<lord-icon src="https://cdn.lordicon.com/rmjnvgsm.json" trigger="loop"
+								colors="primary:#fff,secondary:#ffbd39" style="width:90px;height:90px">
+							</lord-icon>
+							<span>Tailored Solutions</span>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18">
+						<div class="text">
+							<!-- <strong class="number" data-number="30">0</strong> -->
+							<lord-icon src="https://cdn.lordicon.com/rfgxevig.json" trigger="loop"
+								colors="primary:#ffffff,secondary:#ffbd39" style="width:90px;height:90px">
+							</lord-icon>
+							<span>Seamless Integration</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18">
+						<div class="text">
+							<!-- <strong class="number" data-number="1000">0</strong> -->
+							<lord-icon src="https://cdn.lordicon.com/xirobkro.json" trigger="loop"
+								colors="primary:#ffffff,secondary:#ffbd39" style="width:90px;height:90px">
+							</lord-icon>
+
+							<span>Responsive Design</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18">
+						<div class="text">
+							<!-- <strong class="number" data-number="500">0</strong> -->
+							<lord-icon src="https://cdn.lordicon.com/wzrwaorf.json" trigger="loop"
+								colors="primary:#ffffff,secondary:#ffbd39" delay="1500" state="in-reveal"
+								style="width:90px;height:90px">
+							</lord-icon>
+							<span>Ongoing Support</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Contact</h1>
+					<h2 class="mb-4">Contact Me</h2>
+					<p>Below are the details to reach out to me!</p>
+				</div>
+			</div>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-map-signs"></span>
+						</div>
+						<h3 class="mb-4">Address</h3>
+						<p>Surat, India</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-phone2"></span>
+						</div>
+						<h3 class="mb-4">Contact Number</h3>
+						<p><a href="tel:+919601328464">+91 96013 28464</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-paper-plane"></span>
+						</div>
+						<h3 class="mb-4">Email Address</h3>
+						<p><a href="mailto:iamuksumit@gmail.com">iamuksumit@gmail.com</a></p>
+					</div>
+				</div>
+				<!-- <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</div>
+						<h3 class="mb-4">Download Resume</h3>
+						<p><a href="#">resumelink</a></p>
+					</div>
+				</div> -->
+
+				<div class="container">
+					<br>
+					<br>
+					<div class="row justify-content-center">
+						<div class="col-md-7 ftco-animate text-center">
+							<h2>Have a<span> Question? </span> <a href="https://forms.gle/h5w5NepRyTTNeNFeA"
+									class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+						</div>
+					</div>
+					<br>
+						<!-- <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+							<li class="ftco-animate normal-txt">Find me on </li>
+							<li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span
+										class="icon-youtube"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/in/rishabhnmishra/"><span
+										class="icon-linkedin"></span></a></li>
+							<li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span
+										class="icon-twitter"></span></a></li>
+							<li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span
+										class="icon-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.instagram.com/rishabhnmishra/"><span
+										class="icon-instagram"></span></a></li>
+						</ul> -->
+					<br>
+				</div>
+			</div>
+	</section>
+
+
+
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+						is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a
+							href="https://colorlib.com" target="_blank">Colorlib</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+
+	<script src="js/main.js"></script>
+	<script src="https://cdn.lordicon.com/lordicon.js"></script>
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
